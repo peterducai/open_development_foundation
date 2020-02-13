@@ -172,3 +172,56 @@ https://en.wikipedia.org/wiki/Agile_software_development
 
 https://en.wikipedia.org/wiki/Programming_paradigm
 
+
+
+# From Misra C
+
+
+All code shall be traceable to documented requirements
+
+All source files shall compile without any compilation error
+
+Sections of code should not be “commented out”
+
+
+If a function returns error information, then that error informationshall be tested
+
+
+Precautions shall be taken in order to prevent the contents of a
+header
+ Þ 
+le
+ being included more than once
+
+
+ The validity of values passed to library functions shall be checked
+
+Language extensions should not be used
+
+
+There shall be no occurrence of undefined or critical unspecified behaviour
+
+A project shall not contain unreachable code
+Provided that a program does not exhibit any unde
+Þ
+ned behaviour,
+unreachable code
+ cannot beexecuted and cannot have any e
+ﬀ 
+ect on the program’s outputs. The presence of
+unreachable code
+ may therefore indicate an error in the program’s logic
+
+
+ There shall be no dead code
+ Any operation that is executed but whose removal would not a
+ﬀ 
+ect program behaviour constitutes
+dead code
+. Operations that are introduced by language extensions are assumed always to have ane
+ﬀ 
+ect on program behaviour.
+
+
+
+There should be no unused parameters in functions
