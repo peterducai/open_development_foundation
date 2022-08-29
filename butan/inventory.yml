@@ -1,0 +1,11 @@
+all:
+  children:
+    nbde_servers:
+      hosts:
+        tang.example.com:
+    nbde_clients:
+      hosts:
+        worker1nbd.example.com:
+        worker2nbd.example.com:
+        worker3nbd.example.com:
+        worker4nbd.example.com:
