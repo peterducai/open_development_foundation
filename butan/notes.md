@@ -1,3 +1,7 @@
+# ansible roles
+
+> sudo dnf install linux-system-roles
+
 # gen
 
 > butane --pretty --strict example.bu > example.ign
