@@ -2,6 +2,10 @@
 
 > sudo dnf install linux-system-roles
 
+edit settings and
+
+> ansible-playbook nbde.yml -i inventory.yml --ask-vault-pass -b
+
 # gen
 
 > butane --pretty --strict example.bu > example.ign

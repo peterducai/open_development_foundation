@@ -1,0 +1,4 @@
+---
+firewall:
+  - port: ['80/tcp']
+    state: enabled

@@ -1,0 +1,8 @@
+---
+nbde_client_bindings:
+  - device: /dev/vda2
+    encryption_password: !vault |
+          $ANSIBLE_VAULT;1.1;AES256
+          62666465373138636165326639633...
+    servers:
+      - http://tang.example.com
